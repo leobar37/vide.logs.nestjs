@@ -11,6 +11,7 @@ const guilds = {
 const channels = {
   logs: '952050646247419904',
 };
+
 @Injectable()
 export class DiscordService {
   constructor(@InjectDiscord() private readonly _client: Client) {}
