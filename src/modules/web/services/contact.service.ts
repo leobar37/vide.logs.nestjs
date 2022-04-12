@@ -15,7 +15,7 @@ const dtoToMessage = (contact: CreatContactDto) => {
   `,
     `**Nombre:** ${contact.fullName}`,
     `**Email:** ${contact.email}`,
-    `**Mensage:** ${contact.message}`,
+    `**Mensaje:** ${contact.message}`,
     `**Teléfono:** ${contact.phoneNumber}`,
     `**Servicios:** ${contact.services.join(', ')}`,
     `**Fecha:** ${format(new Date(), 'dd/MM/yyyy HH:mm:ss')}`,
